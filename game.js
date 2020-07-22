@@ -67,6 +67,9 @@ function checkAnswer(currentAnswer) {
       setTimeout(function () {
         $("body").css("background-color","#011F3F");
       }, 200);
+      level=0;
+      userClickedPattern =[];
+      gamePattern=[];
     }
   }
 
